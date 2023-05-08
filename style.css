@@ -11,6 +11,12 @@ body {
     margin: 0px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
 #cabe {
     width: 100%;
     height: 110px;
@@ -53,11 +59,12 @@ nav a{
 
 .prod {
     display: flex;
-    width: 242px;
-    height: 262px;
+    width: 280px;
+    height: 280px;
     border-radius: 38px;
     background-color: white;
     transition: all .5s;
+    justify-content: center;
 }
 
 .prod:hover {
@@ -87,9 +94,132 @@ nav a{
     font-family: javanase-text;
 }
 
-#sobre img{
-    width: 45%;
-    height: 45%;
+
+#TelaprodSup {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background: #694F56;
+    padding: 50px;
+    padding-top: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#whats {
+    background-image: url(./imgs/logoWhatsColor.png);
+    width: 115px;
+    height: 115px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#whatsColor {
+    background-image: url(./imgs/logoWhats.png);
+    width: 102%;
+    height: 102%;
+    background-size: 100% auto;
+    transition: all .5s;
+    background-repeat: no-repeat;
+}
+
+#whats:hover #whatsColor{
+    opacity: 0;
 
 }
 
+#insta {
+    background-image: url(./imgs/logoInstaColor.png);
+    width: 129px;
+    height: 120px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#instaColor {
+    background-image: url(./imgs/logoInsta.png);
+    position: relative;
+    width: 102%;
+    height: 102%;
+    background-size: 100% auto;
+    transition: all .5s;
+    right: 3px;
+    background-repeat: no-repeat;
+}
+
+#insta:hover #instaColor{
+    opacity: 0;
+
+}
+
+#logo {
+    width: 100%;
+    height: 150%;
+    justify-content: center;
+    display: flex;
+}
+
+#logo img {
+    width: 420px;
+    height: 400px;
+}
+
+#sobreSup {
+    position: relative;
+    display: flex;
+    font-size: 22px;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: javanase-text;
+    height: 600px;
+    width: 100%;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobreProd {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #694F56;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prod img{
+    border-radius: 38px;
+    width: 100%;
+    height: 100%;
+}
+
+.grid p{
+    font-size: 22px;
+    color: black;
+    font-family: javanase-text;
+}
+
+.grid img{
+    border-radius: 40%;
+}
+
+#prod1 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+}
+
+#prod2 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+}
